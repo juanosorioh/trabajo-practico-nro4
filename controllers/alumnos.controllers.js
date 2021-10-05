@@ -23,7 +23,7 @@ crltHome.postAlumnos = async (req, res) => {
       link_github
     } = req.body;
     try {
-      const alumno = new Alumno({
+      const alumno =  Alumno({
         nombre,
         apellido,
         cuil,
